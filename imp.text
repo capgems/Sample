@@ -1,0 +1,5 @@
+Isolation Level  Dirty_Read Nonrepeatable_Read Phantom_Read 
+Read_Uncommitted Possible.     Possible.      Possible
+Read_Committed   Not possible Possible. Possible
+Repeatable_Read  Not possible Not possible Possible
+Serializable     Not possible Not possible Not possible
